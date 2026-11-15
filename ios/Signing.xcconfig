@@ -1,0 +1,11 @@
+// Code signing for the iOS app.
+//
+// Put your own Apple Developer Team ID in ios/Local.xcconfig (git ignores it):
+//
+//     DEVELOPMENT_TEAM = ABCDE12345
+//
+// Your Team ID is under Membership at https://developer.apple.com/account, or pick your
+// team in Xcode's Signing & Capabilities pane. A free Apple ID works for your own devices.
+// If you sign with a different team, also change PRODUCT_BUNDLE_IDENTIFIER here.
+
+#include? "Local.xcconfig"
